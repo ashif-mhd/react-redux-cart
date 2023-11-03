@@ -1,0 +1,102 @@
+.shoptitle {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 40px;    
+}
+
+.products {
+    width: 100vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+}
+.productitem h1{
+    color: black;
+}
+
+.mainn {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 10px rgb(145, 143, 143);
+    cursor: pointer;
+
+}
+.mainn img {
+    width: 180px;
+    height: 180px;
+    padding: 20px;
+    
+}
+    
+.mainn .productitem{
+    text-align: center;
+    width: 100%px;
+    height:70%;
+    border-radius: 5px;
+   
+}
+
+
+.button-iment{
+    background-color: rgb(0, 142, 5);
+    color: white;
+    border:none;
+    height: 20px;
+    min-width: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgb(35, 105, 5);
+
+}
+
+.button-dment{
+    background-color: rgb(246, 48, 48);
+    color: white;
+    border:none;
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgb(255, 159, 159);
+}
+.button-remove{
+    background-color: rgb(246, 48, 48);
+    color: white;
+    border:none;
+    height: 30px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgb(255, 159, 159);
+
+}
+
+.button-iment:hover {
+    background-color: rgb(15, 84, 3);
+    color: white;
+    cursor: pointer;
+}
+.button-dment:hover{
+    background-color: rgb(120, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+.button-remove:hover{
+    background-color: rgb(120, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+.productitem p{
+    color: rgb(88, 153, 239);
+}
+.productitem h4{
+    color: rgb(0, 119, 255);
+}

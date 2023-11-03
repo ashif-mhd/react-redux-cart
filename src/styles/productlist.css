@@ -1,0 +1,95 @@
+.shoptitle {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 40px;    
+}
+
+.products {
+    width: 100vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+}
+.productitems h1{
+    color: black;
+}
+
+.main {
+    border-radius: 5px;
+    width: 260px;
+    height: 410px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 10px rgb(145, 143, 143);
+    cursor: pointer;
+
+}
+.main img {
+    width: 180px;
+    height: 180px;
+    padding: 20px;
+    
+}
+    
+.main .productitems{
+    text-align: center;
+    box-shadow: 0px 2px 5px black;
+    width: 260px;
+    height:70%;
+    border-radius: 5px;
+   
+}
+
+
+.button-cart{
+    background-color: black;
+    color: white;
+    border:none;
+    height: 30px;
+    min-width: 100px;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px black;
+
+}
+
+.button-stock{
+    background-color: rgb(246, 48, 48);
+    color: white;
+    border:none;
+    height: 30px;
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgb(255, 159, 159);
+
+}
+
+.button-cart:hover {
+    background-color: rgb(57, 57, 57);
+    color: white;
+    cursor: pointer;
+}
+.button-stock:hover{
+    background-color: rgb(120, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+.productitems p{
+    color: rgb(88, 153, 239);
+}
+.productitems h4{
+    color: rgb(0, 119, 255);
+}

@@ -1,0 +1,41 @@
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+Link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 25px;
+    padding: 10px;
+}
+h1{
+    color: white;
+}
+.rightside{
+    flex: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white
+}
+
+.leftside{
+    flex: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white
+}
+.leftside p{
+    font-size: 40px;
+    margin: 70px;
+    font-weight: bold;
+}
